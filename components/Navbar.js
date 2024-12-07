@@ -41,7 +41,11 @@ export const Navbar = () => {
             }}
           >
             <img
-              style={{ width: "60px", borderRadius: "50px" }}
+              style={{
+                width: "60px",
+                borderRadius: "50px",
+                marginRight: ".6em",
+              }}
               src="https://t4.ftcdn.net/jpg/02/45/56/35/360_F_245563558_XH9Pe5LJI2kr7VQuzQKAjAbz9PAyejG1.jpg"
               alt="demo"
             />
