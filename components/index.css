@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  color: rgb(51, 51, 51);
+  box-sizing: border-box;
+}
+
+.landing-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  padding: 0.5em;
+  width: 100%;
+  min-height: calc(100vh - 200px);
+}
+
+.logo {
+  width: 300px;
+}
+
+.InputName {
+  border: 1px solid rgb(197, 197, 197);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  padding: 0.5em;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 25px;
+  /* border: 1px solid black; */
+}
+
+.InputName input {
+  padding: 0.5em;
+  width: 100%;
+  min-width: 350px;
+  border: none;
+}
+
+/* .feeling-good {
+  display: flex;
+  border: 1px solid red;
+
+} */
+
+.buttons {
+  font-weight: 400;
+  padding: 0.8em 1em;
+  margin: 1em 0;
+  border: none;
+  color: rgb(51, 51, 51);
+
+  font-size: 0.9em;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.buttons:hover {
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.lang-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.links {
+  color: rgb(153, 0, 255);
+  font-size: 13px;
+}
+.links:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.4em;
+  padding: 0.4em;
+  width: 100%;
+}
+
+.footer {
+  display: "flex";
+  flex-direction: "column";
+  padding: "1em";
+  flex-wrap: wrap;
+  padding: 1em;
+  margin: 0 0.3em;
+}
+
+.footer-link {
+  display: flex;
+  gap: 1em;
+  /* border: 1px solid red; */
+}
+.footer-link a:hover {
+  text-decoration: underline;
+}
+
+.user-img {
+  width: "60px";
+  border-radius: "50px";
+}
+.footer {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+/*  Responsiveness */
+/* Extra small devices */
+@media only screen and (max-width: 575.98px) {
+  .InputName input {
+    margin: auto;
+    min-width: 100px;
+    margin: 0 0.5em;
+    padding: 0.2em;
+  }
+  .mobile-w {
+    display: none;
+  }
+  .landing-cont {
+    min-height: calc(100vh - 190px);
+  }
+  .lang-link {
+    flex-direction: column;
+  }
+}
+
+/* Small devices */
+@media only screen and (min-width: 576px) and (max-width: 767.98px) {
+  .navbar {
+    margin: 0 0.3em;
+    font-size: 0.3em;
+  }
+}
+
+/* Medium devices  */
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+}
+
+/* Large devices */
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+}
+
+/* Extra large devices */
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+/* XXL devices  */
+@media only screen and (min-width: 1400px) {
+}
