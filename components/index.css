@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
-* {
+/* * {
   margin: 0;
   color: rgb(51, 51, 51);
   box-sizing: border-box;
-}
+} */
 
-.landing-cont {
+.landing_cont {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,7 +64,7 @@
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
-.lang-link {
+.lang_link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -97,16 +97,16 @@
   margin: 0 0.3em;
 }
 
-.footer-link {
+.footer_link {
   display: flex;
   gap: 1em;
   /* border: 1px solid red; */
 }
-.footer-link a:hover {
+.footer_link a:hover {
   text-decoration: underline;
 }
 
-.user-img {
+.user_img {
   width: "60px";
   border-radius: "50px";
 }
@@ -124,13 +124,13 @@
     margin: 0 0.5em;
     padding: 0.2em;
   }
-  .mobile-w {
+  .mobile_w {
     display: none;
   }
-  .landing-cont {
+  .landing_cont {
     min-height: calc(100vh - 190px);
   }
-  .lang-link {
+  .lang_link {
     flex-direction: column;
   }
 }
