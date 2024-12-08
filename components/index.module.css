@@ -40,6 +40,9 @@
   min-width: 350px;
   border: none;
 }
+.InputName input:focus {
+outline: none;
+}
 
 /* .feeling-good {
   display: flex;
