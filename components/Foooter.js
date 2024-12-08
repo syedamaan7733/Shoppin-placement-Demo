@@ -1,8 +1,8 @@
-import "./index.css";
+import styles from "./index.module.css";
 
 export const Footer = () => {
   return (
-    <div className="footer">
+    <div className={styles.footer}>
       <div
         style={{
           marginBottom: ".4em",
@@ -18,15 +18,15 @@ export const Footer = () => {
           justifyContent: "space-between",
         }}
       >
-        <div className="footer-link">
+        <div className={styles.footer_link}>
           <a>Advertising</a>
           <a>Business</a>
-          <a className="mobile-w">How Search works</a>
+          <a className={styles.mobile_w}>How Search works</a>
         </div>
-        <div className="footer-link">
+        <div className={styles.footer_link}>
           <a>Privacy</a>
           <a>Terms</a>
-          <a className="mobile-w">Settings</a>
+          <a className={styles.mobile_w}>Settings</a>
         </div>
       </div>
     </div>
